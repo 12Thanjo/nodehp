@@ -35,7 +35,7 @@ var output_string = nodehp('path', data);
         <nodehp>
         	var output = data.string + "for the " + data.number + "th time!";
             echo("<h1>" + output + "</h1>");
-            echoTag('p', 'paragraph');
+            echoTag('p', 'style="color: red;"','paragraph');
         </nodehp>
 
  </body>
@@ -52,7 +52,7 @@ var output_string = nodehp('path', data);
 
         <!-- where your .nodehp code goes -->
         <h1>Hello World! for the 10th time!</h1>
-        <p>paragraph</p>
+        <p style="color: red;">paragraph</p>
  </body>
 </html>
 ```
